@@ -1,15 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import 'tachyons';
-import Card from './card';
-import Hello from './hello.js';
-import * as serviceWorker from './serviceWorker';
+import React, { Fragment } from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import "tachyons";
+import * as serviceWorker from "./serviceWorker";
+import App from './App';
+import { robots } from './robots.js';
 
 ReactDOM.render(
- 
-   <Hello />,
-  document.getElementById('root')
+  <App/>,
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
